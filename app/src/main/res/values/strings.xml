@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="category_leeds">Leeds Centre</string>
+    <string name="category_trinity">Trinity Centre</string>
+    <string name="category_belgrave">Music Hall</string>
+    <string name="category_market">Kirkgate Market</string>
+    <string name="category_arches">Dark Arches</string>
+    <string name="leeds">Leeds</string>
+    <string name="centre">Centre</string>
+    <string name="leeds_centre_desc">image of Leeds Corn Exchange and nearby mural</string>
+</resources>
