@@ -1,7 +1,5 @@
 package com.example.android.tourguideapp;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,6 +15,8 @@ import java.util.ArrayList;
  */
 
 public class TrinityFragment extends Fragment {
+
+    private ImageLocation location = new ImageLocation("geo:53.7964367,-1.5461095");
 
 
     public TrinityFragment() {
@@ -38,7 +38,7 @@ public class TrinityFragment extends Fragment {
         visitLists.add(new VisitList(R.drawable.trinitykitchen, R.string.trinity_kitchen));
 
         // set the background colour for the fragment
-        VisitListAdapter adapter = new VisitListAdapter(getActivity(), visitLists, R.color.category_trinity);
+        VisitListAdapter adapter = new VisitListAdapter(getActivity(), visitLists, R.color.category_background);
 
         // Find the Listview object in the view hierarchy of the Activity
         ListView listView = (ListView) rootView.findViewById(R.id.list);
@@ -52,12 +52,8 @@ public class TrinityFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                // Create a Uri from an intent string. Use the result to create an Intent.
-                // This Uri will open a map which shows the venue
-                Uri gmmIntentUri = Uri.parse("geo:53.7964367,-1.5461095");
-                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
+
+                location.GoToMap(TrinityFragment.this);
             }
 
         });
