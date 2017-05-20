@@ -4,4 +4,5 @@
     <dimen name="home_margin">2dp</dimen>
     <dimen name="home_image_height">260dp</dimen>
     <dimen name="home_image_padding">4dp</dimen>
+    <dimen name="list_height">200dp</dimen>
 </resources>

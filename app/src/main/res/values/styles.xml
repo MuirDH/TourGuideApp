@@ -20,13 +20,15 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <!-- Text appearance style for the home page -->
-    <style name="LeedsHomeAppearance">
-        <item name="android:textSize">@dimen/home_text_size</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:layout_margin">@dimen/home_margin</item>
-        <item name="android:textColor">@android:color/black</item>
+    <!-- Text appearance style for description text -->
+    <style name="DescriptionTextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
 </resources>

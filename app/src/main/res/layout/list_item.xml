@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<!-- Layout for a single list item -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="400dp"
+    android:background="@color/colorPrimary"
+    android:minHeight="400dp">
 
     <ImageView
-        android:id="@+id/expandedListImage"
+        android:id="@+id/visitListImageView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_weight="1" />
+        android:contentDescription="@string/list_item_image" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/item_container"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/visitListImageView"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
 
     <TextView
-        android:id="@+id/expandedListItem"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:paddingBottom="10dp"
-        android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
-        android:paddingTop="10dp"
-        android:text="TEST"
-        android:textSize="17sp" />
+        android:id="@+id/visitListTextView"
+        style="@style/DescriptionTextAppearance"
+        android:text="@string/test"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
-</LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map_icon"
+        android:src="@drawable/ic_map_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/map"
+        android:layout_alignBottom="@+id/visitListTextView"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

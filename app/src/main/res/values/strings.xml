@@ -1,11 +1,42 @@
 <resources>
-    <string name="app_name">Tour Guide App</string>
-    <string name="category_leeds">Leeds Centre</string>
+    <!-- Title of App -->
+    <string name="app_name">Leeds Centre Tour Guide</string>
+
+    <!-- Trinity Centre category -->
     <string name="category_trinity">Trinity Centre</string>
+    <string name="trinity_entrance">Placeholder text for Leeds Trinity Entrance</string>
+    <string name="trinity_kitchen">Placeholder text for Leeds Trinity Kitchen</string>
+    <string name="trinity_art">Placeholder text for Leeds Trinity Art</string>
+    <string name="trinity_entertainment">Placeholder text for Leeds Trinity Entertainment</string>
+    <string name="trinity_events">Placeholder text for Leeds Trinity Events</string>
+
+    <!-- Belgrave Music Hall category -->
     <string name="category_belgrave">Music Hall</string>
+    <string name="belgrave_entrance">Placeholder text for Belgrave Music Hall Entrance</string>
+    <string name="belgrave_roof_garden">Placeholder text for Belgrave Music Hall Roof Garden</string>
+    <string name="belgrave_food">Placeholder text for Belgrave Music Hall Food</string>
+    <string name="belgrave_canteen">Placeholder text for Belgrave Music Hall Canteen</string>
+    <string name="belgrave_events">Placeholder text for Belgrave Music Hall Events</string>
+
+    <!-- Kirkgate Market category -->
     <string name="category_market">Kirkgate Market</string>
+    <string name="market_entrance">Placeholder text for Leeds Kirkgate Market Entrance</string>
+    <string name="market_food_hall">Placeholder text for Leeds Kirkgate Market Food Hall</string>
+    <string name="market_education">Placeholder text for Leeds Kirkgate Market Education opportunities</string>
+    <string name="market_history">Placeholder text for Leeds Kirkgate Market History</string>
+    <string name="market_variety">Placeholder text for Leeds Kirkgate Market Stall Variety</string>
+
+    <!-- Dark Arches category -->
     <string name="category_arches">Dark Arches</string>
-    <string name="leeds">Leeds</string>
-    <string name="centre">Centre</string>
-    <string name="leeds_centre_desc">image of Leeds Corn Exchange and nearby mural</string>
+    <string name="dark_arches">Placeholder text for Leeds Dark Arches</string>
+    <string name="dark_arches_food">Placeholder text for Leeds Dark Arches Restaurants </string>
+    <string name="arches_and_wharf">Placeholder text for Leeds Dark Arches and Granary Wharf</string>
+    <string name="candle">Placeholder text for the Candle at Granary Wharf</string>
+    <string name="arches_wharf_history">Placeholder text for Dark Arches and Granary Wharf history</string>
+
+
+    <string name="list_item_image">list item image</string>
+    <string name="test">TEST</string>
+    <string name="map">map icon</string>
+
 </resources>
