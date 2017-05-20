@@ -18,14 +18,13 @@ public class TrinityFragment extends Fragment {
 
     private ImageLocation location = new ImageLocation("geo:53.7964367,-1.5461095");
 
-
     public TrinityFragment() {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.list_group, container, false);
 
         //Create an ArrayList containing the image and text for the Trinity visit items
@@ -50,10 +49,12 @@ public class TrinityFragment extends Fragment {
 
         // Set an onClickListener which will open an intent to Google Maps
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 location.GoToMap(TrinityFragment.this);
+
             }
 
         });

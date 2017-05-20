@@ -38,7 +38,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     // Returns the fragment to display for that page
     @Override
     public Fragment getItem(int position) {
+
         switch (position) {
+
             case 0: // Fragment #0 - this will show TrinityFragment
                 return new TrinityFragment();
             case 1: // Fragment #1 - this will show BelgraveFragment
@@ -49,13 +51,16 @@ public class CategoryAdapter extends FragmentPagerAdapter {
                 return new ArchesFragment();
             default:
                 return null;
+
         }
     }
 
     // sets the words which appear on the navigation tabs
     @Override
     public CharSequence getPageTitle(int position) {
+
         switch (position) {
+
             case 0:
                 return mContext.getString(R.string.category_trinity);
             case 1:
@@ -66,15 +71,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
                 return mContext.getString(R.string.category_arches);
             default:
                 return null;
+
         }
-        /*if (position == 0) {
-            return mContext.getString(R.string.category_trinity);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_belgrave);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_market);
-        } else {
-            return mContext.getString(R.string.category_arches);*/
+
     }
 }
 

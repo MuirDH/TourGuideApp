@@ -24,6 +24,7 @@ public class BelgraveFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.list_group, container, false);
 
         //Create an ArrayList containing the image and text for the Belgrave Music Hall visit items
@@ -48,10 +49,12 @@ public class BelgraveFragment extends Fragment {
 
         // Set an onClickListener which will open an intent to Google Maps
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 location.GoToMap(BelgraveFragment.this);
+
             }
 
         });

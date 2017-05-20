@@ -22,13 +22,18 @@
 
     <!-- Text appearance style for description text -->
     <style name="DescriptionTextAppearance">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/list_height</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">16dp</item>
         <item name="android:textColor">@color/colorPrimaryText</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!-- Style for a line which divides the image and text in each list item-->
+    <style name="Margin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/home_image_padding</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
     </style>
 
 </resources>

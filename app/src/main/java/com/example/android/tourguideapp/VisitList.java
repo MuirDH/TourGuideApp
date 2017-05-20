@@ -11,11 +11,12 @@ public class VisitList {
 
     /**
      * Create a new VisitList object
+     *
      * @param imageResourceId is the image associated with the location
      * @param descriptiveText is the text describing the image
      */
 
-    public VisitList(int imageResourceId, int descriptiveText){
+    public VisitList(int imageResourceId, int descriptiveText) {
 
         ImageResourceId = imageResourceId;
         DescriptiveText = descriptiveText;
@@ -23,12 +24,12 @@ public class VisitList {
     }
 
     // get the image
-    public int getImageResourceId(){
+    public int getImageResourceId() {
         return ImageResourceId;
     }
 
     // get the descriptive text
-    public int getDescriptiveText(){
+    public int getDescriptiveText() {
         return DescriptiveText;
     }
 
@@ -37,11 +38,13 @@ public class VisitList {
      */
 
     @Override
-    public String toString(){
+    public String toString() {
+
         return "VisitList{" +
                 "ImageResourceId='" + ImageResourceId + '\'' +
                 ", DescriptiveText='" + DescriptiveText +
                 '}';
+
     }
 
 }

@@ -2,49 +2,89 @@
 
 <!-- Layout for a single list item -->
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="400dp"
-    android:background="@color/colorPrimary"
-    android:minHeight="400dp">
+    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/visitListImageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="@color/colorBorder"
-        android:contentDescription="@string/list_item_image"
-        android:padding="5dp"
-        android:scaleType="fitXY" />
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/item_container"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/visitListImageView"
-        android:orientation="vertical"
-        android:paddingBottom="16dp">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/list_item_padding"
+        android:layout_marginLeft="@dimen/list_item_margin"
+        android:layout_marginRight="@dimen/list_item_margin"
+        android:layout_marginTop="@dimen/list_item_padding"
+        android:background="@drawable/bg_card">
 
-    <TextView
-        android:id="@+id/visitListTextView"
-        style="@style/DescriptionTextAppearance"
-        android:text="@string/test"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        <!-- layout height and minHeight not in dimens.xml due to compiler complaints-->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/colorPrimary"
+            android:minHeight="400dp">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/map_icon"
-        android:src="@drawable/ic_map_black_24dp"
-        android:contentDescription="@string/map"
-        android:layout_alignBottom="@+id/visitListTextView"
-        android:layout_centerHorizontal="true" />
+            <View style="@style/Margin" />
 
-    </RelativeLayout>
+            <!-- Image of different sights in venues. Each venue has 5 images.-->
+            <ImageView
+                android:id="@+id/visitListImageView"
+                android:layout_width="@dimen/list_height"
+                android:layout_height="@dimen/list_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorBorder"
+                android:contentDescription="@string/list_item_image"
+                android:padding="@dimen/home_image_padding"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="@dimen/list_item_margin"
+                android:layout_marginRight="@dimen/list_item_margin"
+                android:layout_marginTop="@dimen/list_item_padding" />
 
-</RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_container"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_height"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/visitListImageView"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/list_item_padding"
+                android:layout_marginLeft="@dimen/list_item_margin"
+                android:layout_marginRight="@dimen/list_item_margin"
+                android:layout_marginTop="@dimen/list_item_padding">
+
+                <View style="@style/Margin" />
+
+                <!-- Descriptive Text telling the user about different aspects of the venue.-->
+                <TextView
+                    android:id="@+id/visitListTextView"
+                    style="@style/DescriptionTextAppearance"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/list_height"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/test"
+                    android:layout_marginBottom="@dimen/list_item_padding"
+                    android:layout_marginLeft="@dimen/list_item_margin"
+                    android:layout_marginRight="@dimen/list_item_margin"
+                    android:layout_marginTop="@dimen/list_item_padding"/>
+
+                <!-- Each list item has a map icon at the bottom to remind the user that they can
+                click on the view to get to a map showing where the venue is-->
+                <ImageView
+                    android:id="@+id/map_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/visitListTextView"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/map"
+                    android:padding="@dimen/home_image_padding"
+                    android:src="@drawable/ic_map_black_24dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

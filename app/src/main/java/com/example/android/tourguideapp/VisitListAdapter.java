@@ -17,23 +17,28 @@ import java.util.ArrayList;
  * TourGuideApp Created by Muir on 17/05/2017.
  */
 
-public class VisitListAdapter extends ArrayAdapter<VisitList>{
+public class VisitListAdapter extends ArrayAdapter<VisitList> {
 
     private int ColorResourceId;
 
-    public VisitListAdapter (Context context, ArrayList<VisitList> visitLists, int colorResourceId){
+    public VisitListAdapter(Context context, ArrayList<VisitList> visitLists, int colorResourceId) {
+
         super(context, 0, visitLists);
         ColorResourceId = colorResourceId;
+
     }
 
     @NonNull
     @Override
-    public View getView (int position, @Nullable View convertView, @NonNull ViewGroup parent){
+    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
 
-        if (listItemView == null){
+        if (listItemView == null) {
+
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+
         }
 
         /**
@@ -65,5 +70,6 @@ public class VisitListAdapter extends ArrayAdapter<VisitList>{
 
         // Return the whole list item layout so that it can be shown
         return listItemView;
+
     }
 }

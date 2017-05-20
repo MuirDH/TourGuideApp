@@ -4,35 +4,95 @@
 
     <!-- Trinity Centre category -->
     <string name="category_trinity">Trinity Centre</string>
-    <string name="trinity_entrance">Placeholder text for Leeds Trinity Entrance</string>
-    <string name="trinity_kitchen">Placeholder text for Leeds Trinity Kitchen</string>
-    <string name="trinity_art">Placeholder text for Leeds Trinity Art</string>
-    <string name="trinity_entertainment">Placeholder text for Leeds Trinity Entertainment</string>
-    <string name="trinity_events">Placeholder text for Leeds Trinity Events</string>
+
+    <string name="trinity_entrance">The Trinity Shopping Centre is located on Albion Street in Leeds,
+        West Yorkshire, UK. It is named after the 18th-century Holy Trinity Church that it is
+        adjacent to. The centre is open 9am-8pm Monday-Saturday and until 5pm on Sundays.</string>
+
+    <string name="trinity_kitchen">The Trinity Kitchen is a unique spin on typical shopping centre
+        food courts. In addition to permanent outlets, the Kitchen features 5 street food vans on a
+        6-8 week rotating basis, offering visitors a constantly changing culinary experience.</string>
+
+    <string name="trinity_art">Two of the best known art sculptures in the Trinity Centre are
+        \'Equus Altus\' and \'Minerva\' by Andy Scott, but from security gates to graffiti murals and
+        even benches, you can find art around every corner.</string>
+
+    <string name="trinity_entertainment">In addition to the Kitchen, Leeds Trinity has several
+        restaurants and cafés throughout the centre. There is literally something for everyone! After
+        you eat, you can relax on a sofa at Everyman Cinema and watch a blockbuster film. </string>
+
+    <string name="trinity_events">There\'s always something happening at Leeds Trinity Centre! From
+        Running Clubs to Chocolate Tasting, Flash Mob performances to Gin Festivals, you never know what
+        might happen from one day to the next!</string>
+
 
     <!-- Belgrave Music Hall category -->
     <string name="category_belgrave">Music Hall</string>
-    <string name="belgrave_entrance">Placeholder text for Belgrave Music Hall Entrance</string>
-    <string name="belgrave_roof_garden">Placeholder text for Belgrave Music Hall Roof Garden</string>
-    <string name="belgrave_food">Placeholder text for Belgrave Music Hall Food</string>
-    <string name="belgrave_canteen">Placeholder text for Belgrave Music Hall Canteen</string>
-    <string name="belgrave_events">Placeholder text for Belgrave Music Hall Events</string>
+
+    <string name="belgrave_entrance">The Belgrave Music Hall is located at Cross Belgrave Street in
+        Leeds. Originally a rec hall and nursery school, the building has been totally restored and
+        has become one of the go to places in Leeds.</string>
+
+    <string name="belgrave_roof_garden">The roof terrace is a popular hangout spot during the summer.
+        With a small bar at one end so you don\'t have to go downstairs to the main bar to get drinks,
+        you can relax on the faux grass turf and take in the views of the city centre.</string>
+
+    <string name="belgrave_food">The Music Hall boasts two different places to eat and neither will
+        break the bank. Dough Boys offers handmade pizza with ingredients sourced locally while
+        Patty Smith\'s does burgers and chips which will keep you full for the rest of the day!</string>
+
+    <string name="belgrave_canteen">The Canteen is full of comfortable sofas and chairs as well as
+        picnic style tables. The overall atmosphere invites you to sit down, relax, and enjoy the
+        music that is always playing.</string>
+
+    <string name="belgrave_events">As expected, the Music Hall puts on music gigs and screens classic
+        films. In addition to this, they also host weekly Yoga classes, monthly Street Food \'Feast\'
+        days, as well as Retro Games nights.</string>
 
     <!-- Kirkgate Market category -->
     <string name="category_market">Kirkgate Market</string>
-    <string name="market_entrance">Placeholder text for Leeds Kirkgate Market Entrance</string>
-    <string name="market_food_hall">Placeholder text for Leeds Kirkgate Market Food Hall</string>
-    <string name="market_education">Placeholder text for Leeds Kirkgate Market Education opportunities</string>
-    <string name="market_history">Placeholder text for Leeds Kirkgate Market History</string>
-    <string name="market_variety">Placeholder text for Leeds Kirkgate Market Stall Variety</string>
+
+    <string name="market_entrance">Leeds Kirkgate Market is open Monday-Saturday from 8am-5:30pm.It
+        boasts over 170 traders with a food hall and a bustling outdoor market. Kirkgate Market can be
+        found at Vicar Lane near the Corn Exchange.</string>
+
+    <string name="market_food_hall">Located in the 1976 Hall of the Market, the Food Hall is a large
+        open space with several Street Food style cafés around the perimeter. The Food Hall also hosts
+        various performances and craft markets throughout the year.</string>
+
+    <string name="market_education">In cooperation with famous chef Jamie Oliver, Kirkgate market is
+        home to Jamie\'s Ministry of Food, a charity run venue which holds cooking classes suitable for
+        every skill level.</string>
+
+    <string name="market_history">Kirkgate Market opened in 1857 and was designed by architect
+        Joseph Paxton. Since it was built, there have been several additions to replace damage by bomb
+        and fires.</string>
+
+    <string name="market_variety">There are no shortage of options in the Market for visitors to
+        choose from. From food to fashion, cooking, crafts, and jewellery, there\'s an incredible
+        range of products to browse and buy.</string>
 
     <!-- Dark Arches category -->
-    <string name="category_arches">Dark Arches</string>
-    <string name="dark_arches">Placeholder text for Leeds Dark Arches</string>
-    <string name="dark_arches_food">Placeholder text for Leeds Dark Arches Restaurants </string>
-    <string name="arches_and_wharf">Placeholder text for Leeds Dark Arches and Granary Wharf</string>
-    <string name="candle">Placeholder text for the Candle at Granary Wharf</string>
-    <string name="arches_wharf_history">Placeholder text for Dark Arches and Granary Wharf history</string>
+    <string name="category_arches">Granary Wharf</string>
+
+    <string name="dark_arches">The Dark Arches can be found under the Leeds Railway Station. They
+        are lit by LEDs which slowly cycle through the rainbow spectrum, thereby adding colour to what
+        would otherwise be a dark, cold, and foreboding place.</string>
+
+    <string name="dark_arches_food">A few eateries can be found in the Dark Arches. From Italian to
+        Tapas to your more traditional Yorkshire fare, if you\'re hungry or thirsty, this is a great place
+        to go.</string>
+
+    <string name="arches_and_wharf">Above the Dark Arches is Leeds Railway Station. Sitting in one of
+        the venues there, you\'ll be able to hear the trains as they pass overhead. The Wharf contains
+        two residential buildings, a hotel, and small cafés.</string>
+
+    <string name="candle">Candle House is a residential building with a bar and restaurant in the base.
+        Built in 2009, the building has won several design awards in part due to the \'twisting\' design
+        which makes the building seem as though it\'s tilting.</string>
+
+    <string name="arches_wharf_history">When the new railway station was built in 1866 (completed in 1869),
+        the Dark Arches were created. Over 18 million bricks were used during the construction of the Arches.</string>
 
 
     <string name="list_item_image">list item image</string>

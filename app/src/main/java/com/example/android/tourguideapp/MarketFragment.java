@@ -25,6 +25,7 @@ public class MarketFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.list_group, container, false);
 
         //Create an ArrayList containing the image and text for the Market visit items
@@ -49,10 +50,12 @@ public class MarketFragment extends Fragment {
 
         // Set an onClickListener which will open an intent to Google Maps
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 location.GoToMap(MarketFragment.this);
+
             }
 
         });
